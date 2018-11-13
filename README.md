@@ -1,6 +1,6 @@
 # Vault Java SDK Sample - vsdk-helloworld
 
-**For full reference, please refer to [Getting Started](https://dev-developer.veevavault.com/sdk/#Getting_Started)**.
+**For full reference, please refer to [Getting Started](https://developer.veevavault.com/sdk/#Getting_Started)**.
 
 To make getting started easy, we created a sample vSDK Hello World project that demonstrates the Vault Java SDK. The trigger returns a "Hello, world" error message when a vSDK Hello World record is created within vault!
 
@@ -37,7 +37,7 @@ First, you need to configure your vault so the sample trigger runs smoothly. You
 6.  Click  **Save**  and you should see a "Hello, world." error in a dialog box.  
 7.  Stop Running the project.
 
-Thatís your trigger in action! The ìHello, Worldî code only executes while the debugger is running. Once the debugger is stopped, this trigger will no longer appear in your vault.
+That‚Äôs your trigger in action! The ‚ÄúHello, World‚Äù code only executes while the debugger is running. Once the debugger is stopped, this trigger will no longer appear in your vault.
 
 Continue to [Deploying Code](https://dev-developer.veevavault.com/sdk/#Deploy) to learn how to deploy this code and enable it to always run on your vault.
 
