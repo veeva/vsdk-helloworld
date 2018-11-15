@@ -30,7 +30,7 @@ First, you need to configure your vault so the sample trigger runs smoothly. You
 ## How to run
 
 1.  Log into your Vault: [https://login.veevavault.com/](https://login.veevavault.com/)
-2.  Start the [Vault Java SDK Debugger](https://dev-developer.veevavault.com/sdk/#Debug_Setup).
+2.  Start the [Vault Java SDK Debugger](https://developer.veevavault.com/sdk/#Debug_Setup).
 3.  Go to  **Admin -> Business Admin**  tab and click on  **vSDK Hello World**  in the left navigation panel
 4.  Click the  **Create**  button in the list page
 5.  Enter your name in the  **Name**  field
@@ -39,7 +39,7 @@ First, you need to configure your vault so the sample trigger runs smoothly. You
 
 That’s your trigger in action! The “Hello, World” code only executes while the debugger is running. Once the debugger is stopped, this trigger will no longer appear in your vault.
 
-Continue to [Deploying Code](https://dev-developer.veevavault.com/sdk/#Deploy) to learn how to deploy this code and enable it to always run on your vault.
+Continue to [Deploying Code](https://developer.veevavault.com/sdk/#Deploy) to learn how to deploy this code and enable it to always run on your vault.
 
 	    
 ## License
