@@ -1,1 +1,0 @@
-<vaultpackage xmlns="https://veevavault.com/"><name>PKG-vsdk-helloworld</name><source><vault>1</vault><author>Vault Developer Support</author></source><summary>vSDK Hello World Components</summary><description>This VPK contains the required Vault components for running the "vsdk-helloworld" sample project.</description></vaultpackage>
