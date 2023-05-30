@@ -11,7 +11,7 @@ import com.veeva.vault.sdk.api.core.ValueType;
  * Hello World sample.
  */
 
-@RecordTriggerInfo(object = "vsdk_hello_world__c", name="vsdk_hello_world__c", events = {RecordEvent.BEFORE_INSERT})
+@RecordTriggerInfo(object = "vsdk_hello_world__c", events = {RecordEvent.BEFORE_INSERT})
 public class HelloWorld implements RecordTrigger {
 
     public void execute(RecordTriggerContext recordTriggerContext) {
@@ -19,9 +19,6 @@ public class HelloWorld implements RecordTrigger {
         for (RecordChange inputRecord : recordTriggerContext.getRecordChanges()) {
 
             inputRecord.setError("OPERATION_NOT_ALLOWED", "Hello, World.");
-
-            //String userName = inputRecord.getNew().getValue("name__v", ValueType.STRING);
-            //inputRecord.setError("OPERATION_NOT_ALLOWED", "Hello, " + userName + ".");
         }
     }
 }

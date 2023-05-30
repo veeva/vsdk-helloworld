@@ -37,9 +37,11 @@ First, you need to configure your vault so the sample trigger runs smoothly. You
 6.  Click  **Save**  and you should see a "Hello, world." error in a dialog box.  
 7.  Stop Running the project.
 
-That’s your trigger in action! The “Hello, World” code only executes while the debugger is running. Once the debugger is stopped, this trigger will no longer appear in your vault.
+That’s your trigger in action! 
 
-Continue to [Deploying Code](https://developer.veevavault.com/sdk/#Deploy) to learn how to deploy this code and enable it to always run on your vault.
+Changes made to the code can be deployed using the [Vault Java SDK Maven plugin](https://github.com/veeva/vaultjavasdk-maven-plugin). There are sample settings files for the maven plugin in the /src/main/resources/ directory.
+
+Further discussion about Vault Java SDK can be held in our [Vault for Developers community](https://devcommunity.veevavault.com) on Veeva Connect.
 
 	    
 ## License
