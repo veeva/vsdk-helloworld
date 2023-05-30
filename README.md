@@ -18,10 +18,10 @@ For Eclipse this is done by:
 
 First, you need to configure your vault so the sample trigger runs smoothly. You can do this by deploying a prepackaged set of components (.vpk), or by manually creating a "vsdk_hello_world__c" object in Vault.
 
-#### Deploying the Vault Java SDK Hello World VPK Package
+#### Deploying the vSDK Hello World VPK Package
 
 1.  Log in to your vault and navigate to Admin > Deployment > Inbound Packages and click Import.
-2.  Locate and select the \deploy-vpk\Vault-Java-SDK-HelloWorld.vpk file on your computer. Vault opens and displays the details for the package.  
+2.  Locate and select the \deploy-vpk\vsdk-helloworld-components\vsdk-helloworld-components.vpk file on your computer. Vault opens and displays the details for the package.  
 3.  From the Actions menu, select Review & Deploy. Vault displays a list of all components in the package.
 4.  Click Next.   
 5.  On the confirmation page, review and click Finish. You will receive an email when Vault completes the deployment.
@@ -37,16 +37,16 @@ First, you need to configure your vault so the sample trigger runs smoothly. You
 6.  Click  **Save**  and you should see a "Hello, world." error in a dialog box.  
 7.  Stop Running the project.
 
-That’s your trigger in action!
+That’s your trigger in action! The “Hello, World” code only executes while the debugger is running. Once the debugger is stopped, this trigger will no longer appear in your vault.
 
-You can update the code and deploy the changes to the SDK using the [Vault Java SDK Maven Plugin](https://github.com/veeva/vaultjavasdk-maven-plugin).
+Continue to [Deploying Code](https://developer.veevavault.com/sdk/#Deploy) to learn how to deploy this code and enable it to always run on your vault.
 
 	    
 ## License
 
 This code serves as an example and is not meant for production use.
 
-Copyright 2023 Veeva Systems Inc.
+Copyright 2018 Veeva Systems Inc.
  
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

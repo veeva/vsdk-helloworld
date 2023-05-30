@@ -1,6 +1,5 @@
 package com.veeva.vault.custom.triggers;
 
-import com.veeva.vault.sdk.api.core.RollbackException;
 import com.veeva.vault.sdk.api.data.RecordTriggerInfo;
 import com.veeva.vault.sdk.api.data.RecordEvent;
 import com.veeva.vault.sdk.api.data.RecordTrigger;
@@ -19,7 +18,10 @@ public class HelloWorld implements RecordTrigger {
 
         for (RecordChange inputRecord : recordTriggerContext.getRecordChanges()) {
 
-            throw new RollbackException("OPERATION_NOT_ALLOWED", "Hello, World.");
+            inputRecord.setError("OPERATION_NOT_ALLOWED", "Hello, World.");
+
+            //String userName = inputRecord.getNew().getValue("name__v", ValueType.STRING);
+            //inputRecord.setError("OPERATION_NOT_ALLOWED", "Hello, " + userName + ".");
         }
     }
 }
