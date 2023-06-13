@@ -2,8 +2,8 @@
   "deployment_option": "replace_all",
   "package_name": "Vault-Java-SDK-Common-Services",
   "package_type": "migration__v",
-  "package_summary": "Vault Java SDK code for Common Services Sample",
-  "package_description": "This VPK contains code that exemplifies how to utilize commonly used SDK services",
+  "package_summary": "Vault Java SDK code for Vault Java SDK Hello World",
+  "package_description": "This VPK contains code for setting up the Hello World project",
   "author": "vault.user@sandboxvault.com",
   "vault_id": "123456",
   "replace_existing": false
