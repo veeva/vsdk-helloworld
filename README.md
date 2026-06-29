@@ -1,6 +1,6 @@
 # Vault Java SDK Sample - vsdk-helloworld
 
-This project complements the [Java SDK Getting Started Guide](https://developer.veevavault.com/sdk/#getting-started)
+This project complements the [Java SDK Getting Started Guide](https://general.veevavault.dev/vault-sdk/getting-started/)
 available on the Vault Developer Portal. Please refer to the documentation for detailed instructions
 on how to use this project.
 
@@ -10,7 +10,7 @@ Further discussion about Vault Java SDK can be held in our [Vault for Developers
 
 This code serves as an example and is not meant for production use.
 
-Copyright 2024 Veeva Systems Inc.
+Copyright 2026 Veeva Systems Inc.
  
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
