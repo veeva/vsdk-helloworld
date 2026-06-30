@@ -65,8 +65,8 @@
                 <artifactId>vaultjavasdk-maven-plugin</artifactId>
                 <version>24.1.0</version>
                 <configuration>
-                    <pluginSettingsFilePath>${project.basedir}${file.separator}javasdk${file.separator}src${file.separator}main${file.separator}resources${file.separator}plugin_settings_file.json</pluginSettingsFilePath>
-                    <vapilSettingsFilePath>${project.basedir}${file.separator}javasdk${file.separator}src${file.separator}main${file.separator}resources${file.separator}vapil_settings_file.json</vapilSettingsFilePath>
+                    <pluginSettingsFilePath>${project.basedir}${file.separator}src${file.separator}main${file.separator}resources${file.separator}plugin_settings_file.json</pluginSettingsFilePath>
+                    <vapilSettingsFilePath>${project.basedir}{file.separator}src${file.separator}main${file.separator}resources${file.separator}vapil_settings_file.json</vapilSettingsFilePath>
                 </configuration>
             </plugin>
         </plugins>
