@@ -5,17 +5,17 @@ available on the Vault Developer Portal. Please refer to the documentation for d
 on how to use this project.
 
 Further discussion about Vault Java SDK can be held in our [Vault for Developers community](https://devcommunity.veevavault.com) on Veeva Connect.
-	    
+
 ## License
 
 This code serves as an example and is not meant for production use.
 
 Copyright 2026 Veeva Systems Inc.
- 
+
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
- 
+
     http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
